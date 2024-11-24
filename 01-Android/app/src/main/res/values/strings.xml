@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ccgr12024b_dpat</string>
+    <string name="saludo">Hello friends</string>
+    <color name="saludo_color">#CD8915</color>
 </resources>

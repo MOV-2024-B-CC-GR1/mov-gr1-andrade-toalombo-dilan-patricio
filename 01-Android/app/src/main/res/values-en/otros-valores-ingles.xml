@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="saludo">Hola amigos</string>
-
+    <color name="saludo_color">#2B09</color>
 </resources>

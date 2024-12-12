@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="condicion1">Condicion 4 - Port ES</string>
+    <color name="condicion1">#361171</color>
+    <color name="condicion1_fondo">#3E4B21</color>
+    <style name="condicion1_letra">
+        <item name="android:fontFamily"> sans-serif-condensed-medium</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+</resources>

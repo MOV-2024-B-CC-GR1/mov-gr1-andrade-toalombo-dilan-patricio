@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Trabajo1</string>
+    <string name="condicion1">Condicion 3 - Lands Es</string>
+    <color name="condicion1">#E91E63</color>
+    <color name="condicion1_fondo">#4CAF50</color>
+    <style name="condicion1_letra">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+</resources>

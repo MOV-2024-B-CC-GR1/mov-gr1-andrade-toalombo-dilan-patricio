@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ccgr12024b_dpat</string>
+    <string name="condicion">Lands EN</string>
+    <color name="condicion_color">#DCDCF2</color>
 </resources>

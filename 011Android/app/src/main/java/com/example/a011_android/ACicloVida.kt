@@ -65,7 +65,7 @@ class ACicloVida : AppCompatActivity() {
     }
 
     var textoGlobal = ""
-    fun mostrarSnackbar(text:String){
+    private fun mostrarSnackbar(text:String){
         textoGlobal += text
         val snack = Snackbar.make(
             findViewById(R.id.cl_ciclo_vida),

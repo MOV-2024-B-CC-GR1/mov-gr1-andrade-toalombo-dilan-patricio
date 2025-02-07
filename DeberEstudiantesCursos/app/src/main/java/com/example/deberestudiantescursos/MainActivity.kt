@@ -135,7 +135,7 @@ class MainActivity : AppCompatActivity() {
     private fun verCursos(estudiante: Estudiante) {
         Log.d("MainActivity", "ID del estudiante seleccionado: ${estudiante.id}")
         val intent = Intent(this, ListaCursosActivity::class.java)
-        intent.putExtra("ESTUDIANTE_ID", estudiante.id) // Pasa el ID del estudiante.
+        intent.putExtra("ESTUDANTE_ID", estudiante.id) // Pasa el ID del estudiante.
         startActivity(intent) // Inicia la actividad de lista de cursos.
     }
 }

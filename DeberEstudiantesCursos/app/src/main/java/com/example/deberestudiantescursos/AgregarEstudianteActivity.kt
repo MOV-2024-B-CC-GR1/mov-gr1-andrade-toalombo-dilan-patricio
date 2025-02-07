@@ -1,6 +1,7 @@
 package com.example.deberestudiantescursos
 
 import android.content.ContentValues
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -67,6 +68,12 @@ class AgregarEstudianteActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+        // Ir al Maps
+        val botonGoogleMaps = findViewById<Button>(R.id.verEstudiante)
+        botonGoogleMaps.setOnClickListener {
+            val intent = Intent(this, GGoogleMaps::class.java)
+            startActivity(intent)
         }
     }
 
